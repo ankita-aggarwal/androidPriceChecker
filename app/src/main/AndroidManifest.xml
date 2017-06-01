@@ -16,11 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".signup" />
-        <activity android:name=".login" />
-        <activity android:name=".search" />
-        <activity android:name=".result" />
-        <activity android:name=".history"></activity>
+        <activity android:name=".signup"
+            android:label="Sign Up"/>
+        <activity android:name=".login"
+            android:label="LOGIN"/>
+        <activity android:name=".search"
+            android:label="Search"/>
+        <activity android:name=".result"
+            android:label="Result"/>
+        <activity android:name=".history"
+            android:label="History"></activity>
     </application>
 
 </manifest>
